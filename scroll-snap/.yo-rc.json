@@ -1,0 +1,7 @@
+{
+  "generator-yolo": {
+    "project": "scroll-snap",
+    "author": "scroll snap",
+    "jsPreprocessor": "ES6(using babel)"
+  }
+}

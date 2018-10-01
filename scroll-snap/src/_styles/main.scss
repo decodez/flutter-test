@@ -1,0 +1,62 @@
+//Normalize styles
+@import 'node_modules/normalize.css/normalize';
+
+
+
+
+@import "./_fonts";
+
+
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: white;
+  object-fit: cover;
+  color: #222;
+  transform: rotate("300deg");
+  min-width: 100vw;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.yolo-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  .logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.site-wrapper {
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  &--1 {
+    background-color: antiquewhite;
+  }
+  &--2 {
+    background-color: aquamarine;
+  }
+  &--3 {
+    background-color: cornflowerblue;
+  }
+  &--4 {
+    background-color: crimson;
+  }
+  &--5 {
+    background-color: lightgreen;
+  }
+}
+
+@import "../_modules/button/button";
