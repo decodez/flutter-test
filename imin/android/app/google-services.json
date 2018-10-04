@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "163431978308",
+    "firebase_url": "https://imin-255c8.firebaseio.com",
+    "project_id": "imin-255c8",
+    "storage_bucket": "imin-255c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163431978308:android:e7ab0db0ad437d63",
+        "android_client_info": {
+          "package_name": "com.decodez.imin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163431978308-5inlj305q3afqrtipkkagm6d10f9teg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5ako9wpWVR3w_J3fyLPvAN6i9YmUaymY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
