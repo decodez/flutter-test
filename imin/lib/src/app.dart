@@ -16,6 +16,9 @@ class App extends StatelessWidget {
             child: TopBar(),
           ),
           Container(
+            decoration: BoxDecoration(
+              color: Color.fromRGBO(245, 248, 250, 1.0),
+            ),
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height*(5/6),
             child: StreamBuilder(

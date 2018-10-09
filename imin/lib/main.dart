@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Baby Names',
-      theme: ThemeData(fontFamily: 'RobotoSlab'),
+      theme: ThemeData(fontFamily: 'Raleway'),
       home: App(),
     );
   }

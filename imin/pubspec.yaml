@@ -63,6 +63,17 @@ flutter:
           weight: 200
         - asset: fonts/RobotoSlab-Thin.ttf
           weight: 100
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: fonts/Raleway-Medium.ttf
+          weight: 500
+        - asset: fonts/Raleway-Light.ttf
+          weight: 200
+        - asset: fonts/Raleway-Thin.ttf
+          weight: 100
 
   
   # For details regarding fonts from package dependencies,
