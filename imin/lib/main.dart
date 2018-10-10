@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import './src/app.dart';
+import './src/screens/signup_screen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Baby Names',
       theme: ThemeData(fontFamily: 'Raleway'),
-      home: App(),
+      home: SignupScreen(),
     );
   }
 }
